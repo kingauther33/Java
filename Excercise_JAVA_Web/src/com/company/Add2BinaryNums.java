@@ -6,7 +6,7 @@ public class Add2BinaryNums {
 
     public static void main(String[] args) {
 	// Swap numbers
-        int a, b;
+        int a, b, temp;
         Scanner scanner = new Scanner(System.in);
         System.out.print("Moi ban nhap a: ");
         a = scanner.nextInt();
