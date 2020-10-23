@@ -23,6 +23,10 @@ public class BookRepositoryTest {
     }
 
     public static void main(String[] args) {
+        //Co the dung argument co san cua de khoi tao book ma ko thong qua BookRepositoryTest() (Run -> Edit Configurations)
+        //byte numberOfBooks = Byte.parseByte(args[0]);
+        // BookRepi... objBook...
+        // objBook.books = new Book[numberOfBooks]; (neu de books ko private);
         int choice;
         Scanner sc = new Scanner(System.in);
         BookRepositoryTest objBook = new BookRepositoryTest();
